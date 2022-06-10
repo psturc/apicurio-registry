@@ -1,0 +1,3 @@
+MAVEN_S2I_ARTIFACT_DIRS=app/target
+S2I_SOURCE_DEPLOYMENTS_FILTER=apicurio-registry-app-*-runner.jar lib
+S2I_SOURCE_DATA_DIR=lib
