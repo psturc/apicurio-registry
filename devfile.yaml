@@ -16,7 +16,6 @@ parent:
   id: java-quarkus
   registryUrl: "https://registry.devfile.io"
 components:
-  - name: outerloop-build
   - name: outerloop-deploy
     kubernetes:
       uri: outerloop-deploy.yaml
