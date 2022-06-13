@@ -19,9 +19,6 @@ components:
   - name: outerloop-build
     image:
       imageName: java-quarkus-image:latest
-      dockerfile:
-        buildContext: .
-        rootRequired: false
   - name: outerloop-deploy
     kubernetes:
       uri: outerloop-deploy.yaml
