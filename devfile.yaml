@@ -26,7 +26,6 @@ commands:
   - id: deploy
     composite:
       commands:
-        - build-image
         - deployk8s
       group:
         kind: deploy
