@@ -20,9 +20,6 @@ components:
     kubernetes:
       uri: outerloop-deploy.yaml
 commands:
-  - id: build-image
-    apply:
-      component: outerloop-build
   - id: deployk8s
     apply:
       component: outerloop-deploy
